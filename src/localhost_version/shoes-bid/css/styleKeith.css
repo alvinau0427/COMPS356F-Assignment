@@ -1,0 +1,23 @@
+.disabled{
+    display:none;
+}
+.header_area .favourite-area a, .header_area .user-login-info a, .header_area .cart-area a{
+    font-size:20px;
+}
+.favTable{
+    margin: 50px 0px;
+    width:100%;
+}
+.favTable i {
+    font-size: 30px
+}
+.favTableTitle{
+    background-color: #efefef;
+    height:50px;
+}
+.favTableRow{
+    border-bottom:1px solid #ccc;
+}
+.commetArea{
+    margin:80px 0;
+}
