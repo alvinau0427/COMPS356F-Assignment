@@ -19,6 +19,9 @@
 ### Run the program
 http://127.0.0.1:8080/index.php
 
+### Online Demonstration
+http://34.96.159.224/shoes-bid/index.php
+
 ## Screenshots
 ![Image](https://github.com/alvinau0427/COMPS356F-Assignment/blob/master/doc/demo.png)
 
