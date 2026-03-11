@@ -1,33 +1,43 @@
 # COMPS356F-Assignment
-> OUHK 2019/20 Software Engineering and Project Management (COMPS356F) Assignment
+> **OUHK 2019/20 Software Engineering and Project Management (COMPS356F) Assignment**
+>
+> A dynamic, full-stack e-commerce auction system developed with **PHP** and **MySQL**, designed specifically for the sneaker collector market. This project focuses on software engineering principles, including database normalization, user session management, and real-time bidding logic.
 
-> PHP Program (MySQL): Online Shoe Biding Website
+[![PHP](https://img.shields.io/badge/php-%23777BB4.svg?&logo=php&logoColor=white)](#) &nbsp;
+[![HTML](https://img.shields.io/badge/HTML-%23E34F26.svg?logo=html5&logoColor=white)](#) &nbsp;
+[![CSS](https://img.shields.io/badge/CSS-639?logo=css&logoColor=fff)](#) &nbsp;
+[![JavaScript](https://img.shields.io/badge/Javacript-F9AB00?logo=javascript&logoColor=white)](#) &nbsp;
+[![SQLite](https://img.shields.io/badge/SQLite-%2307405e.svg?logo=sqlite&logoColor=white)](#) &nbsp;
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE) &nbsp;
 
-[![Build Status](https://travis-ci.com/alvinau0427/COMPS356F-Assignment.svg?branch=master)](https://travis-ci.org/alvinau0427/COMPS356F-Assignment)
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+## Project Overview
+**SoleBid** provides a streamlined marketplace where users can participate in competitive bidding for limited edition footwear. The application ensures data integrity and a seamless user experience through a robust backend architecture.
 
-## Getting Started
-- A web application which provides shoe biding function
+### Key Features:
+* **Live Auction System:** Real-time bidding interface with automated price increments.
+* **Product Catalog:** Comprehensive shoe database with high-quality imagery and detailed specifications.
+* **User Accounts:** Secure registration and login system to track bid history and successful purchases.
+* **Administrator Portal:** Dedicated CMS to manage listings, monitor active bids, and handle user database.
+* **Responsive Design:** Optimized for both desktop and mobile viewing.
 
-## Installation
+## Installation & Setup
+### Prerequisites
+* **XAMPP** / WAMP / MAMP (PHP 7.0+ recommended)
+* **MySQL Server**
 
-### Setup
-1. For using xampp, put the files from `src` to `xampp/htdocs/`.
-2. Import the sql file `356f.sql` from `src/localhost_version/` to `127.0.0.1:8080/phpmyadmin`.
-3. Then you can see the database are already created.
-
-### Run the program
-http://127.0.0.1:8080/index.php
-
-### Online Demonstration
-http://34.96.159.224/shoes-bid/index.php
+### Local Deployment
+1. **File Placement:** Copy all files from the `/src` directory to your server's root folder (e.g., `C:/xampp/htdocs/solebid/`).
+2. **Database Setup:** - Access **phpMyAdmin** (typically at `http://localhost/phpmyadmin`).
+   - Create a new database.
+   - Import the SQL schema: `/src/localhost_version/356f.sql`.
+3. **Execution:** Open your browser and navigate to `http://localhost/solebid/index.php`.
 
 ## Screenshots
 ![Image](https://github.com/alvinau0427/COMPS356F-Assignment/blob/master/doc/demo.png)
 
-## Demonstration
-- For more information of the project demonstration, please click [here](https://youtu.be/qmmG7FFkSAA) to watch the following video.
-[![Demonstration](https://img.youtube.com/vi/qmmG7FFkSAA/hqdefault.jpg)](https://youtu.be/qmmG7FFkSAA)
+## Video Demonstration
+For a complete walkthrough of the system functionalities and UI/UX flow, please watch our demonstration video:
+[![SoleBid Demo Video](https://img.youtube.com/vi/qmmG7FFkSAA/hqdefault.jpg)](https://youtu.be/qmmG7FFkSAA)
 
 ## License
 - COMPS356F-Assignment is released under the [MIT License](https://opensource.org/licenses/MIT).
